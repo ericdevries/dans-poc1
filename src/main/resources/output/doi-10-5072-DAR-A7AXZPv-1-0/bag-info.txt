@@ -1,0 +1,11 @@
+Contact-Name: Test01  User01
+Contact-Email: user001@dans.knaw.nl
+Source-Organization: Dataverse Installation (<Site Url>)
+Organization-Address: <Full address>
+Organization-Email: <Email address>
+External-Description: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+Bagging-Date: 2023-01-11
+External-Identifier: doi:10.5072/DAR/A7AXZP
+Bag-Size: 38 bytes
+Payload-Oxum: 38.5
+Internal-Sender-Identifier: DANS Data Station Archaeology (dev):Title of the dataset

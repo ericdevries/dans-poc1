@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd"
+          xmlns="http://datacite.org/schema/kernel-4"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <identifier identifierType="DOI">10.5072/DAR/A7AXZP</identifier>
+    <creators><creator><creatorName>D.N. van den Aarden</creatorName><affiliation>(Utrecht University)</affiliation></creator></creators>
+    <titles>
+        <title>Title of the dataset</title>
+    </titles>
+    <publisher>DANS Data Station Archaeology (dev)</publisher>
+    <publicationYear>2023</publicationYear>
+    <resourceType resourceTypeGeneral="Dataset"/>
+    
+    <descriptions>
+        <description descriptionType="Abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </descriptions>
+    <contributors><contributor contributorType="ContactPerson"><contributorName>Test01 User01</contributorName><affiliation>(DANS)</affiliation></contributor></contributors>
+</resource>

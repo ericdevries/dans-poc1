@@ -1,0 +1,6 @@
+doi:10.5072/DAR/A7AXZP data/Title of the dataset/
+https://dar.dans.knaw.nl/file.xhtml?fileId=53 data/Title of the dataset/sub/leeg2.txt
+https://dar.dans.knaw.nl/file.xhtml?fileId=54 data/Title of the dataset/leeg.txt
+https://dar.dans.knaw.nl/file.xhtml?fileId=55 data/Title of the dataset/sub/sub/sine-md5.txt
+https://dar.dans.knaw.nl/file.xhtml?fileId=57 data/Title of the dataset/sine-md5.txt
+https://dar.dans.knaw.nl/file.xhtml?fileId=56 data/Title of the dataset/sub/sub/vacio.txt
