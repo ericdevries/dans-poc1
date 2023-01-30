@@ -5,125 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e492eae-51e1-4212-9866-be70ac569321" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/CompoundExportMetadataField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/ExportDataset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/ExportDatasetAuthor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/ExportMetadataField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/ExportMetadataNamespace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/MetadataFieldFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/PrimitiveExportMetadataField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/RawJsonExportMetadataField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/DatasetAuthor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/DatasetOrganization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/DepositState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/Deposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/DepositDatasetFieldNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/DepositToDvDatasetMetadataMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/DepositToDvDatasetMetadataMapperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/ArchaeologyFieldBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/CitationFieldBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/CompoundFieldGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/DataVaultFieldBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/FieldBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/PrimitiveFieldBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/RelationFieldBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/RightsFieldBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/TemporalSpatialFieldBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/AbrAcquisitionMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/AbrReportType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/AccessRights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Amd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Audience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Contributor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/DatesOfCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/DcxDaiAuthor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/DcxDaiOrganization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/DepositPropertiesOtherDoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/DepositPropertiesVaultMetadata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Description.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/FileElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/IdUriHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Identifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/InCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/License.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/PersonalStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Relation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Spatial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/SpatialBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/SpatialCoverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/SpatialPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/SubjectAbr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/TemporalAbr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DatasetToDataciteConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OREMapBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/VocabsResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/DataCiteMetadataTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/DatasetAuthor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/GlobalId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/BagChecksumType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/BagGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/BagValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/BagValidationJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/BagValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/ChecksumType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/DatasetFieldConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/FileChecksumValidationJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/JsonLDNamespace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/JsonLDTerm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/ManifestReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/data/FileDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/data/FileUtilWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/data/FolderDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/data/ZipFileDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/Deposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/DepositManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/DepositManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/DepositState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/IdUriHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/VaultMetadata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/XPathEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/XmlNamespaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/XmlReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/XmlReaderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/datacite_metadata_template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/deposit.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/valid-bag/bag-info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/valid-bag/bagit.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/valid-bag/data/leeg.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/valid-bag/data/sine-md5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/valid-bag/data/sub/leeg2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/valid-bag/data/sub/sub/sine-md5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/valid-bag/data/sub/sub/vacio.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/valid-bag/manifest-sha1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/valid-bag/metadata/dataset.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/valid-bag/metadata/files.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/6a6632f1-91d2-49ba-8449-a8d2b539267a/valid-bag/tagmanifest-sha1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/output/doi-10-5072-dar-a7axzp-datacite.v1.0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/output/doi-10-5072-dar-a7axzpv1.0.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/output/jsonfile.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vocabs/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vocabs/dansAudience_D20000.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vocabs/dansAudience_D24000.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "/home/eric/workspace/dans-poc1/src/main/java/nl/knaw/dans",
-    "last_opened_file_path": "/home/eric/workspace/dans-poc1/src/main/resources/vocabs",
+    "last_opened_file_path": "/home/eric/workspace/bbleap-all/dataplatform",
     "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
