@@ -12,6 +12,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <path />
     </properties>
 
     <dependencies>
@@ -109,9 +110,9 @@
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-impl</artifactId>
             <version>4.0.0</version>
-            <scope>runtime</scope>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -132,9 +133,33 @@
                     <packageName>nl.knaw.dans.datacite</packageName>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>nl.knaw.dans.poc.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>nl.knaw.dans.poc.Main</mainClass>
+                    <arguments>
+                        <argument>${path}</argument>
+                    </arguments>
+                </configuration>
+            </plugin>
         </plugins>
-
     </build>
+
+
     <repositories>
         <repository>
             <id>dans-releases</id>

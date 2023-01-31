@@ -1,5 +1,16 @@
 # PoC
 
+## How to run
+
+Just execute the Main class in the project to run it with the basic provided dataset
+
+To run it with your own dataset, do the following:
+
+```shell
+
+$ mvn clean package exec:java -Dpath=/path/to/deposit/
+```
+
 * First step is populating a dataset with all the information that we have from deposit.properties, dataset.xml, files.xml and possibly other bag metadata.
     * deposit.properties:
         - doi

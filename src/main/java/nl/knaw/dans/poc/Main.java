@@ -50,10 +50,18 @@ public class Main {
 
     public static Map<String, Path> fileMapping = new HashMap<>();
 
+    public static Path getInputPath(String[] args) {
+        if (args.length == 0 || args[0] == null) {
+            var s = Main.class.getResource("/input/6a6632f1-91d2-49ba-8449-a8d2b539267a");
+            assert s != null;
+            return Path.of(s.getPath());
+        }
+
+        return Path.of(args[0]);
+    }
     public static void main(String[] args) throws IOException {
-        var s = Main.class.getResource("/input/6a6632f1-91d2-49ba-8449-a8d2b539267a");
-        assert s != null;
-        var path = Path.of(s.getPath());
+        var path = getInputPath(args);
+        System.out.println("Reading from path: " + path);
 
         var xmlReader = new XmlReaderImpl();
         var depositManager = new DepositManagerImpl(xmlReader);
