@@ -6,6 +6,95 @@
   <component name="ChangeListManager">
     <list default="true" id="2e492eae-51e1-4212-9866-be70ac569321" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/CompoundExportMetadataField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/export/CompoundExportMetadataField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/ExportDataset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/ExportDatasetAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/export/ExportDatasetAuthor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/ExportMetadataField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/export/ExportMetadataField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/ExportMetadataNamespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/export/ExportMetadataNamespace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/MetadataFieldFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/export/MetadataFieldFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/PrimitiveExportMetadataField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/export/PrimitiveExportMetadataField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/export/RawJsonExportMetadataField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/export/RawJsonExportMetadataField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/DatasetAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/DatasetAuthor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/DatasetOrganization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/DatasetOrganization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/DepositState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/DepositState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/Deposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/DepositDatasetFieldNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/DepositDatasetFieldNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/FileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/FileInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/DepositToDvDatasetMetadataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/DepositToDvDatasetMetadataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/DepositToDvDatasetMetadataMapperFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/DepositToDvDatasetMetadataMapperFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/ArchaeologyFieldBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/builder/ArchaeologyFieldBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/CitationFieldBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/builder/CitationFieldBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/CompoundFieldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/builder/CompoundFieldGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/DataVaultFieldBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/builder/DataVaultFieldBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/FieldBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/builder/FieldBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/PrimitiveFieldBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/builder/PrimitiveFieldBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/RelationFieldBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/builder/RelationFieldBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/RightsFieldBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/builder/RightsFieldBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/builder/TemporalSpatialFieldBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/builder/TemporalSpatialFieldBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/AbrAcquisitionMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/AbrAcquisitionMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/AbrReportType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/AbrReportType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/AccessRights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/AccessRights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Amd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Amd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Audience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Audience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Contributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Contributor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/DatesOfCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/DatesOfCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/DcxDaiAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/DcxDaiAuthor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/DcxDaiOrganization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/DcxDaiOrganization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/DepositPropertiesOtherDoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/DepositPropertiesOtherDoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/DepositPropertiesVaultMetadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/DepositPropertiesVaultMetadata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Description.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/FileElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/FileElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/IdUriHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/IdUriHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Identifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Identifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/InCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/InCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/License.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/License.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/PersonalStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/PersonalStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Relation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Relation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Spatial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Spatial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/SpatialBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/SpatialBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/SpatialCoverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/SpatialCoverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/SpatialPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/SpatialPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/SubjectAbr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/SubjectAbr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/ingest/core/service/mapper/mapping/TemporalAbr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/ddingest/service/mapper/mapping/TemporalAbr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DatasetToDataciteConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/DatasetToDataciteConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OREMapBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/VocabsResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/VocabsResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/DataCiteMetadataTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/DatasetAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/DatasetAuthor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/GlobalId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/GlobalId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/BagChecksumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/BagChecksumType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/BagGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/BagGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/BagValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/BagValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/BagValidationJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/BagValidationJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/BagValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/BagValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/ChecksumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/ChecksumType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/DatasetFieldConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/DatasetFieldConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/FileChecksumValidationJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/FileChecksumValidationJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/JsonLDNamespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/JsonLDNamespace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/JsonLDTerm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/JsonLDTerm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/ManifestReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/ManifestReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/data/FileDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/data/FileDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/data/FileUtilWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/data/FileUtilWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/data/FolderDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/data/FolderDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/data/ZipFileDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/data/ZipFileDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/depositmanager/Deposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/DepositManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/depositmanager/DepositManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/DepositManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/depositmanager/DepositManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/DepositState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/depositmanager/DepositState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/IdUriHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/depositmanager/IdUriHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/VaultMetadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/depositmanager/VaultMetadata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/XPathEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/depositmanager/XPathEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/XmlNamespaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/depositmanager/XmlNamespaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/XmlReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/depositmanager/XmlReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/XmlReaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/depositmanager/XmlReaderImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +133,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "/home/eric/workspace/dans-poc1/src/main/java/nl/knaw/dans",
-    "last_opened_file_path": "/home/eric/workspace/bbleap-all/dataplatform",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/eric/workspace/dans-poc1/src/main/java/nl/knaw/dans&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/eric/workspace/bbleap-all/dataplatform&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/vocabs" />
@@ -75,11 +164,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <option name="MAIN_CLASS_NAME" value="nl.knaw.dans.poc.Main" />
       <module name="dans-poc1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="nl.knaw.dans.poc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,7 +197,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/dataverse/bagit/BagGenerator.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/nl/knaw/dans/poc/bagit/BagGenerator.java</url>
           <line>528</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
